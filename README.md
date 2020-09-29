@@ -8,3 +8,6 @@ Python projects using Tkinter library.
   
 # TicTacToeGame.py:
   the famous tic-tac-toe game implented using Tkinter library.
+  
+# break_time.py:
+  desktop applications that asks you to enter a specified number of hours that you are going to use the computer then after the period is finished the program prompt you to take a break and locks the computer.
