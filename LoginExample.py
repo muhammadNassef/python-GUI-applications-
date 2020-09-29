@@ -25,6 +25,8 @@ def BuClick():
     print("User name:{}, Password: {}".format(etUserName.get(), etPassword.get()))
     if (etUserName.get() == "admin" and etPassword.get() == "1234"):
         messagebox.showinfo(title="Login info", message="Welcome into python App")
+    elif (etUserName.get() == "" and etPassword.get() == ""):
+        messagebox.showinfo(title="Login info", message="Fill the empty fields!")
     else:
         messagebox.showinfo(title="Login info", message="User name or password is incorrect")
 
